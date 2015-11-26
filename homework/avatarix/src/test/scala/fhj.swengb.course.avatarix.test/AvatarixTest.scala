@@ -16,7 +16,7 @@ class AvatarixTest {
    }
 
   @Test def correctAvatarUrl(): Unit = {
-    assertTrue(1 == 1)
+    assertTrue(2 != 1)
     //assertEquals(irgendwas == anzahlDerStudenten)
   }
 
