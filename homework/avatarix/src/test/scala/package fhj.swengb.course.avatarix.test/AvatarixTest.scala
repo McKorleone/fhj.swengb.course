@@ -1,6 +1,7 @@
-package fhj.swengb.avatarix
+package fhj.swengb.course.avatarix.test
 
 
+import fhj.swengb.{Students, Student, GitHub, Person}
 import org.junit.Assert._
 import org.junit.Test
 
@@ -10,8 +11,12 @@ import org.junit.Test
 
 class AvatarixTest {
 
+  @Test def isValid(): Unit = {
+    assertEquals("jbtastic", Students.jblazevic.githubUsername)
+   }
 
   @Test def correctAvatarUrl(): Unit = {
+    assertTrue(1 == 1)
     //assertEquals(irgendwas == anzahlDerStudenten)
   }
 
