@@ -8,6 +8,7 @@ import fhj.swengb.{Student, SwengbUtil}
 import scala.io.Source
 import scala.util.Try
 
+
 object AssessmentUtil {
   /**
     * We create a function to generate a report in the Markdown Format
